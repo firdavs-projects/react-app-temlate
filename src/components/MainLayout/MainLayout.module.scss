@@ -1,0 +1,30 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  footer {
+    width: 100%;
+  }
+}
+.main {
+  max-width: 1150px;
+  margin: 0 auto auto;
+  padding: 0 40px;
+  width: calc(100% - 80px);
+}
+
+@media (max-width: 1120px) {
+  .main {
+  }
+}
+
+@media (max-width: 850px) {
+  .main {
+  }
+}
+@media (max-width: 580px) {
+  .main {
+  }
+}
